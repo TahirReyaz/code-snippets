@@ -1,0 +1,29 @@
+{
+  "React functional component with interface and types": {
+    "prefix": "rfcit",
+    "body": [
+      "import React from 'react'",
+      "",
+      "interface Props {",
+      "  $2",
+      "}",
+      "",
+      "const ${1:$TM_FILENAME_BASE}: React.FC<Props> = ({ $3 }) => {",
+      "  $0",
+      "  return (",
+      "    <div>",
+      "     ${1:$TM_FILENAME_BASE}",
+      "    </div>",
+      "  )",
+      "}",
+      "",
+      "export default ${1:$TM_FILENAME_BASE};"
+    ],
+    "description": "Initial code for empty react function component with Props interface"
+  },
+  "Log Variable": {
+    "prefix": "clv",
+    "body": ["console.log({$0});"],
+    "description": "Console log with object brackets"
+  }
+}
